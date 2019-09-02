@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.kerneldc</groupId>
   <artifactId>maven-simple-project</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.4-SNAPSHOT</version>
 
   <build>
   <plugins>
@@ -43,7 +43,7 @@
 	<distributionManagement>
 		<repository>
 			<id>localRepo</id>
-<!-- 			<url>file:${deploy.folder}</url> -->
+			<url>file:${deploy.folder}</url>
 		</repository>
 	</distributionManagement>
 
